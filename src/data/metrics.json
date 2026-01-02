@@ -1,0 +1,41 @@
+{
+  "profile": {
+    "name": "Ella Mae Hecto",
+    "title": "Operations Coordinator",
+    "experience": "7+ Years",
+    "location": "Philippines-based, Remote-first",
+    "available": "Available to start immediately"
+  },
+  "heroMetrics": [
+    { "value": "92%", "label": "QA Score" },
+    { "value": "8-10", "label": "Jobs/Day" },
+    { "value": "1,500→0", "label": "Backlog Cleared" }
+  ],
+  "operations": {
+    "jobsCoordinated": "8-10",
+    "jobsLabel": "jobs coordinated daily",
+    "estimateTurnaround": "28-min",
+    "estimateLabel": "estimate turnaround",
+    "reviewRate": "72%",
+    "reviewLabel": "review submission rate",
+    "fleetSize": "11-truck",
+    "fleetLabel": "fleet coordination",
+    "crewSize": "2-5",
+    "crewLabel": "movers per crew",
+    "pivotType": "Same-day",
+    "pivotLabel": "operational pivots"
+  },
+  "support": {
+    "ticketsDaily": "65+",
+    "ticketsLabel": "tickets daily (92% QA)",
+    "contactsDaily": "90",
+    "contactsLabel": "contacts daily (89% CSAT)",
+    "backlogReduction": "1,500→0",
+    "backlogLabel": "backlog cleared"
+  },
+  "webOps": {
+    "onTimeDelivery": "100%",
+    "onTimeLabel": "on-time delivery",
+    "platforms": ["Shopify", "Canva"]
+  }
+}

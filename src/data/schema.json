@@ -1,0 +1,150 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Portfolio Data Schema",
+  "description": "Schema definitions for portfolio data files",
+  
+  "metrics": {
+    "type": "object",
+    "required": ["profile"],
+    "properties": {
+      "profile": {
+        "type": "object",
+        "required": ["name", "title", "experience"],
+        "properties": {
+          "name": { "type": "string" },
+          "title": { "type": "string" },
+          "experience": { "type": "string" },
+          "location": { "type": "string" },
+          "available": { "type": "string" }
+        }
+      },
+      "heroMetrics": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["value", "label"],
+          "properties": {
+            "value": { "type": "string" },
+            "label": { "type": "string" }
+          }
+        }
+      },
+      "operations": {
+        "type": "object",
+        "properties": {
+          "jobsCoordinated": { "type": "string" },
+          "jobsLabel": { "type": "string" },
+          "estimateTurnaround": { "type": "string" },
+          "estimateLabel": { "type": "string" },
+          "reviewRate": { "type": "string" },
+          "reviewLabel": { "type": "string" }
+        }
+      },
+      "support": {
+        "type": "object",
+        "properties": {
+          "ticketsDaily": { "type": "string" },
+          "ticketsLabel": { "type": "string" },
+          "contactsDaily": { "type": "string" },
+          "contactsLabel": { "type": "string" },
+          "backlogReduction": { "type": "string" },
+          "backlogLabel": { "type": "string" }
+        }
+      },
+      "webOps": {
+        "type": "object",
+        "properties": {
+          "onTimeDelivery": { "type": "string" },
+          "onTimeLabel": { "type": "string" },
+          "platforms": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        }
+      }
+    }
+  },
+  
+  "experience": {
+    "type": "object",
+    "required": ["experience"],
+    "properties": {
+      "experience": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["id", "company", "title", "duration", "dateRange", "summary", "highlights"],
+          "properties": {
+            "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+            "company": { "type": "string" },
+            "title": { "type": "string" },
+            "role": { "type": "string" },
+            "duration": { "type": "string" },
+            "dateRange": { "type": "string" },
+            "type": { "type": "string", "enum": ["full-time", "contract", "freelance"] },
+            "summary": { "type": "string" },
+            "highlights": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "tools": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "metrics": {
+              "type": "object",
+              "additionalProperties": { "type": "string" }
+            }
+          }
+        }
+      },
+      "skills": {
+        "type": "object",
+        "properties": {
+          "operations": { "type": "array", "items": { "type": "string" } },
+          "dispatch": { "type": "array", "items": { "type": "string" } },
+          "support": { "type": "array", "items": { "type": "string" } },
+          "webOps": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    }
+  },
+  
+  "caseStudies": {
+    "type": "object",
+    "required": ["caseStudies"],
+    "properties": {
+      "caseStudies": {
+        "type": "array",
+        "items": {
+          "type": "object",
+          "required": ["id", "title", "company", "role", "duration", "outcome", "description", "context", "problem", "actions", "tools", "results"],
+          "properties": {
+            "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+            "title": { "type": "string" },
+            "company": { "type": "string" },
+            "role": { "type": "string" },
+            "duration": { "type": "string" },
+            "outcome": { "type": "string" },
+            "description": { "type": "string" },
+            "context": { "type": "string" },
+            "problem": { "type": "string" },
+            "actions": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "tools": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "results": {
+              "type": "array",
+              "items": { "type": "string" }
+            },
+            "improvement": { "type": "string" }
+          }
+        }
+      }
+    }
+  }
+}

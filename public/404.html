@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Redirecting...</title>
+    <script>
+      (function () {
+        const l = window.location;
+        const repo = "/ellamaehecto";
+        const path = l.pathname.replace(repo + "/", "");
+        const query = l.search ? l.search.substring(1) : "";
+        l.replace(
+          repo +
+            "/?p=" +
+            encodeURIComponent(path) +
+            "&q=" +
+            encodeURIComponent(query)
+        );
+      })();
+    </script>
+  </head>
+  <body></body>
+</html>

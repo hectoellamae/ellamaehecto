@@ -1,0 +1,121 @@
+{
+  "caseStudies": [
+    {
+      "id": "dttm",
+      "title": "Moving Ops & Dispatch Coordination",
+      "company": "DTTM",
+      "role": "Operations & Dispatch",
+      "duration": "2.5 years",
+      "outcome": "Zero Missed Appointments",
+      "description": "Coordinated 8-10 jobs daily across 11-truck fleet with 28-min estimate turnaround and 72% review rate.",
+      "context": "Moving company with 11 trucks running 8-10 jobs daily across a defined service region. Operations run end-to-end: survey → inventory → estimate → CRM entry → dispatch → post-move outreach.",
+      "problem": "High job volume with multiple handoff points created risk for missed notes, delayed updates, and scheduling drift.",
+      "actions": [
+        "Owned full survey-to-dispatch workflow: captured inventory details, estimated times, and customer preferences",
+        "Maintained real-time schedule visibility across 8-10 daily jobs, coordinating truck/crew assignments",
+        "Executed post-move outreach within review collection window, contributing to 72% submission rate",
+        "Built and maintained tracker hygiene so nothing fell through"
+      ],
+      "tools": ["Supermove", "OnCue", "QuickBooks", "Slack", "SlickText", "Google Sheets"],
+      "results": [
+        "Zero missed appointments over 8-month period",
+        "28-minute average estimate turnaround",
+        "72% review submission rate",
+        "Concurrent Flip role (40hrs/week) + DTTM (10-15hrs/week)"
+      ],
+      "improvement": "Would implement automated reminder system for follow-ups and integrate CRM with dispatch scheduling."
+    },
+    {
+      "id": "ubiquity",
+      "title": "Disputes Triage & Queue Discipline",
+      "company": "Fintech",
+      "role": "Support Operations",
+      "duration": "3 years",
+      "outcome": "Process Improvement",
+      "description": "Managed 65+ tickets daily with 92% QA. Contributed to 1,500→0 backlog reduction in 15 days.",
+      "context": "Primary triage specialist for US fintech company (team of 12 agents) handling card disputes, chargebacks, and billing issues.",
+      "problem": "Growing dispute queue with inconsistent intake documentation causing downstream rework and delays.",
+      "actions": [
+        "Standardized triage intake with structured note templates for complete documentation",
+        "Implemented routing discipline so tickets reached the right specialists consistently",
+        "Reduced rework caused by incomplete intake by implementing mandatory fields",
+        "Prioritized queue based on downstream impact and urgency"
+      ],
+      "tools": ["Zendesk", "Salesforce", "Slack"],
+      "results": [
+        "Contributed to team initiative: 1,500-case backlog → 0 in 15 days",
+        "92% QA score on triage accuracy and documentation",
+        "89% CSAT maintaining satisfaction during dispute resolution"
+      ],
+      "improvement": "Would implement automated escalation triggers based on case age and amount at risk."
+    },
+    {
+      "id": "flip",
+      "title": "Customer Support (Chat + Email)",
+      "company": "Flip",
+      "role": "Support Operations",
+      "duration": "7 months",
+      "outcome": "Quality Consistency",
+      "description": "Maintained consistent quality across high-volume support workflows for influencer marketplace.",
+      "context": "Influencer marketplace platform with customer base reaching out via chat and email. Support operated through structured ticket workflows.",
+      "problem": "Maintaining consistency in response time, tone, and documentation across 40+ hours weekly.",
+      "actions": [
+        "Processed incoming tickets through Zendesk with complete intake documentation",
+        "Categorized and prioritized queue items based on urgency and type",
+        "Maintained calm, consistent written communication across every interaction"
+      ],
+      "tools": ["Zendesk", "Slack", "Google Meet"],
+      "results": [
+        "Consistent response quality across concurrent roles",
+        "Complete intake documentation for downstream teams"
+      ],
+      "improvement": "Would create template library for common inquiry types to reduce response time."
+    },
+    {
+      "id": "abigail",
+      "title": "Content + Shopify/Canva Execution",
+      "company": "Abigail Solutions",
+      "role": "Media & Content",
+      "duration": "6 months",
+      "outcome": "Workflow Established",
+      "description": "Achieved 100% on-time publication delivery with consistent brand assets across all client deliverables.",
+      "context": "Media & content coordinator managing multi-client publishing schedules and asset production.",
+      "problem": "Multiple clients with different publishing requirements and content formats.",
+      "actions": [
+        "Managed content calendar across platforms, keeping deadlines visible and on-track",
+        "Prepared and organized assets: formatted variants, labeled revisions, ready for upload",
+        "Executed Shopify store updates: product listings, imagery, basic merchandising"
+      ],
+      "tools": ["Canva", "Shopify", "Slack", "Figma", "WordPress"],
+      "results": [
+        "100% on-time publication delivery",
+        "Zero missed deadlines",
+        "Consistent brand consistency across all published content"
+      ],
+      "improvement": "Would implement content batch creation workflow to reduce per-piece production time."
+    },
+    {
+      "id": "webdev",
+      "title": "Portfolio Website Development",
+      "company": "Self",
+      "role": "Web Development",
+      "duration": "Ongoing",
+      "outcome": "Design System Built",
+      "description": "Designed and developed portfolio website with custom design system and accessibility focus.",
+      "context": "Personal project to create professional portfolio showcasing operations and support work.",
+      "problem": "Needed professional online presence that demonstrates systems thinking and design sensibility.",
+      "actions": [
+        "Designed monochrome brand system with CSS custom properties",
+        "Implemented accessible HTML structure following WAI-ARIA guidelines",
+        "Created reusable component system for consistency"
+      ],
+      "tools": ["HTML", "CSS", "JavaScript", "Figma"],
+      "results": [
+        "Fully responsive design across all devices",
+        "Accessible navigation with keyboard support",
+        "Performance-optimized static site"
+      ],
+      "improvement": "Would add blog section and case study templates for easier content additions."
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  --font-size: 16px;
+  
+  /* Monochromatic Gold System */
+  --gold-highlight: #F59E0B;
+  --gold-deepest: #201501;
+  --gold-darker: #4B3003;
+  --gold-dark: #754C05;
+  --gold-medium: #A06707;
+  --gold-light: #CA8309;
+  
+  /* Semantic colors mapped from gold palette */
+  --background: #0A0A0A;
+  --foreground: #201501;
+  --card: #FDFCF7;
+  --card-foreground: #201501;
+  --popover: #FDFCF7;
+  --popover-foreground: #201501;
+  --primary: #A06707;
+  --primary-foreground: #FDFCF7;
+  --secondary: #754C05;
+  --secondary-foreground: #FDFCF7;
+  --muted: #4B3003;
+  --muted-foreground: #A06707;
+  --accent: #CA8309;
+  --accent-foreground: #201501;
+  --destructive: #d4183d;
+  --destructive-foreground: #ffffff;
+  --border: rgba(117, 76, 5, 0.2);
+  --input: transparent;
+  --input-background: #FBF8F0;
+  --switch-background: #CA8309;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+  --ring: #A06707;
+  --radius: 0.625rem;
+}
+
+@theme inline {
+  --color-gold-highlight: var(--gold-highlight);
+  --color-gold-deepest: var(--gold-deepest);
+  --color-gold-darker: var(--gold-darker);
+  --color-gold-dark: var(--gold-dark);
+  --color-gold-medium: var(--gold-medium);
+  --color-gold-light: var(--gold-light);
+  
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-input-background: var(--input-background);
+  --color-switch-background: var(--switch-background);
+  --color-ring: var(--ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+
+  body {
+    @apply text-gold-deepest;
+    background: linear-gradient(135deg, #FBF8F0 0%, #F5F0E5 50%, #EDE7D8 100%);
+    min-height: 100vh;
+  }
+
+  html {
+    font-size: var(--font-size);
+    scroll-behavior: smooth;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+    font-weight: var(--font-weight-medium);
+    line-height: 1.2;
+    color: var(--gold-deepest);
+  }
+
+  h2 {
+    font-size: 2rem;
+    font-weight: var(--font-weight-medium);
+    line-height: 1.3;
+    color: var(--gold-darker);
+  }
+
+  h3 {
+    font-size: 1.5rem;
+    font-weight: var(--font-weight-medium);
+    line-height: 1.4;
+    color: var(--gold-dark);
+  }
+
+  h4 {
+    font-size: 1.25rem;
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+    color: var(--gold-dark);
+  }
+
+  label {
+    font-size: 1rem;
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  button {
+    font-size: 1rem;
+    font-weight: var(--font-weight-medium);
+    line-height: 1.5;
+  }
+
+  input, textarea {
+    font-size: 1rem;
+    font-weight: var(--font-weight-normal);
+    line-height: 1.5;
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    *,
+    *::before,
+    *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+      scroll-behavior: auto !important;
+    }
+  }
+}

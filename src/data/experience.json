@@ -1,0 +1,166 @@
+{
+  "experience": [
+    {
+      "id": "dttm",
+      "company": "Dan The Moving Man",
+      "title": "Moving Operations & Dispatch Coordinator",
+      "role": "Operations & Dispatch",
+      "duration": "2.5 years",
+      "dateRange": "Jul 2023 – Nov 2025",
+      "type": "contract",
+      "summary": "Owned end-to-end dispatch workflow for a moving company running 8–10 jobs daily across 11 trucks.",
+      "highlights": [
+        "Coordinated 8-10 jobs daily across 11-truck fleet",
+        "28-minute average estimate turnaround",
+        "72% review submission rate via systematic follow-up",
+        "Zero missed appointments over 8-month period"
+      ],
+      "tools": ["Supermove", "OnCue", "QuickBooks", "Slack", "SlickText", "Google Sheets"],
+      "metrics": {
+        "jobsDaily": "8-10",
+        "fleetSize": "11 trucks",
+        "surveysDaily": "8-15",
+        "estimateTime": "28 min"
+      }
+    },
+    {
+      "id": "flip",
+      "company": "Flip",
+      "title": "Customer Support Specialist (Chat + Email)",
+      "role": "Support Operations",
+      "duration": "7 months",
+      "dateRange": "Sep 2024 – Mar 2025",
+      "type": "contract",
+      "summary": "Handled tier 1 customer support through structured ticket workflows for influencer marketplace.",
+      "highlights": [
+        "Maintained consistent response quality across 40+ hours weekly",
+        "Processed tickets with complete intake documentation",
+        "Collaborated with DTTM role concurrently"
+      ],
+      "tools": ["Zendesk", "Slack", "Google Meet"],
+      "metrics": {
+        "hoursWeekly": "40"
+      }
+    },
+    {
+      "id": "ubiquity",
+      "company": "Ubiquity Global Services",
+      "title": "Disputes & Chargebacks Ops (Triage)",
+      "role": "Support Operations",
+      "duration": "3 years",
+      "dateRange": "Jan 2020 – Nov 2022",
+      "type": "full-time",
+      "summary": "Owned triage and intake for high-volume fintech disputes queue.",
+      "highlights": [
+        "Contributed to team initiative clearing 1,500-case backlog to zero in 15 days",
+        "92% QA score on triage accuracy and documentation",
+        "89% CSAT maintaining satisfaction during dispute resolution",
+        "Managed 65+ dispute tickets daily"
+      ],
+      "tools": ["Zendesk", "Salesforce", "Slack"],
+      "metrics": {
+        "ticketsDaily": "65+",
+        "qaScore": "92%",
+        "csat": "89%",
+        "backlogCleared": "1,500→0"
+      }
+    },
+    {
+      "id": "abigail",
+      "company": "Abigail Solutions",
+      "title": "Media & Content Coordinator",
+      "role": "Media & Content",
+      "duration": "6 months",
+      "dateRange": "Jan 2023 – Jul 2023",
+      "type": "full-time",
+      "summary": "Coordinated content scheduling and asset preparation for media company.",
+      "highlights": [
+        "100% on-time publication delivery across all client deliverables",
+        "Maintained consistent brand assets across platforms",
+        "Executed Shopify store updates and product listings"
+      ],
+      "tools": ["Canva", "Shopify", "Slack", "Figma", "WordPress"],
+      "metrics": {
+        "onTimeDelivery": "100%"
+      }
+    },
+    {
+      "id": "iqor",
+      "company": "iQor",
+      "title": "Customer Support Representative",
+      "role": "Support",
+      "duration": "3 months",
+      "dateRange": "Nov 2022 – Jan 2023",
+      "type": "full-time",
+      "summary": "Handled inbound customer support queries.",
+      "highlights": [
+        "Processed customer inquiries with accurate documentation",
+        "Maintained queue discipline during peak volume periods"
+      ],
+      "tools": ["Avaya"],
+      "metrics": {}
+    },
+    {
+      "id": "transcom",
+      "company": "Transcom",
+      "title": "Customer Service Agent",
+      "role": "Support",
+      "duration": "1 year",
+      "dateRange": "2022 – Nov 2022",
+      "type": "full-time",
+      "summary": "Provided customer service support with focus on clear communication.",
+      "highlights": [
+        "Handled customer queries with structured response approach",
+        "Documented interactions for continuity and follow-up"
+      ],
+      "tools": ["Phone system"],
+      "metrics": {}
+    },
+    {
+      "id": "eperformax",
+      "company": "ePerformax",
+      "title": "Support Specialist",
+      "role": "Support",
+      "duration": "1 year",
+      "dateRange": "2021 – 2022",
+      "type": "full-time",
+      "summary": "Provided customer support services, developing triage and documentation skills.",
+      "highlights": [
+        "Processed support tickets with attention to detail",
+        "Developed foundational skills in support operations"
+      ],
+      "tools": ["Zendesk", "Salesforce"],
+      "metrics": {
+        "contactsDaily": "90",
+        "qaScore": "89%",
+        "csat": "86%"
+      }
+    }
+  ],
+  "skills": {
+    "operations": [
+      "Coordination and planning",
+      "Tracker and checklist management",
+      "Documentation and SOPs",
+      "Scheduling support"
+    ],
+    "dispatch": [
+      "Time window coordination",
+      "Notes hygiene",
+      "Customer updates",
+      "Follow-up tracking"
+    ],
+    "support": [
+      "Triage discipline",
+      "Complete case notes",
+      "Queue prioritization",
+      "Escalation hygiene"
+    ],
+    "webOps": [
+      "Shopify updates",
+      "Canva asset creation",
+      "Publishing coordination",
+      "Content QA"
+    ]
+  }
+}
